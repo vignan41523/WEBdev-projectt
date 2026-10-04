@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #484b8e;
+    color: white;
+}
+
+.navbargroup{
+
+    width: 100%;
+    height: 70px;
+    background: #171761;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 4%;
+
+}
+
+.title a{
+    color: #f6e553;
+    text-decoration: none;
+
+    font-family: "Changa One", sans-serif;
+    font-size: 20px;
+}
+
+.ugly h4{
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.navlinks{
+    display: flex;
+    gap: 30px;
+}
+
+.navlinks a{
+    color: white;
+    text-decoration: none;
+
+    font-family: " Coromorant Garamond", serif;
+    font-size:15px;
+}
+
+.navlinks a:hover {
+    color: #f6e553;
+}
+
+.home {
+    min-height: calc(100vh-70px);
+
+    background: #4c54cf;
+
+    padding: 55px 8% 70px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+.intro h1,
+.into h1,
+.visuals h1{
+    font-family: "Bebas Neue"sans-serif;
+    font-size: clamp(100px, 13vw , 185px);
+    line-height:0.8;
+}
+
+.intro h1 {
+
+    color: #D9DAFF
+}
+
+
+.into h1{
+    color: #f6e553;
+    text-align: center;
+}
+
+.visuals h1{
+    color: #D9DAFF;
+    text-align: center;
+}
+
+.disgn{
+text-align: center;
+margin-top: 50px
+
+}
+
+.disgn h2 {
+    color: #aeb4ff;
+
+    font-family: "Allura", cursive;
+    font-size: 38px;
+    font-weight: 400;
+
+    margin: 18px 0;
+}
+
+.About {
+    min-height: 100vh;
+    background: #4c54cf;
+
+    padding: 100px 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.process{
+    color: #D9DAFF;
+    font-family: "Coromorant Garamond", serif;
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin-botton: 30px;
+}
+
+.About h1{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-size: clamp(40px, 5vw , 75px);
+
+    line-height: 1.15;
+
+    margin: 5px 0;
+}
+
+
+.myself{
+    color: #D9DAFF;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 16px;
+    line-height: 1.3;
+
+    max-width: 650px;
+
+    margin-top: 35px;
+
+}
+
+.service-section{
+    background-color: #484b8e;
+
+    padding: 100px 10% 110px;
+}
+
+.service-section > p{
+    color: #D9DAFF;
+    font-family: "Coromorant Garamond", serif;
+
+    font-size: 15px;
+    letter-spacing: 5px;
+
+    margin-bottom: 35px;
+}
+
+.service{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 30px;
+}
+
+.service > .service-item {
+    border-top: 1px solid #D9DAFF;
+    padding-top: 20px;
+
+}
+
+.service-item span {
+    color:  #f6e553;
+
+    font-family: "Archivo Black", sans-serif;
+
+    font-size: 20px;
+
+    margin: 20px 0 15px;
+
+}
+
+.service-item h5{
+    color: #D9DAFF;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+    line-height: 1.6;
+    max-width: 350px;
+
+}
+
+.service > .service-item > .service-item {
+    border-top: 1px solid #D9DAFF;
+
+    margin-top: 45px;
+
+    padding-top: 20px;
+}
+
+.selected-work{
+
+    min-height: 100vh;
+    background: #171761;
+
+    padding: 100px 10% 120px;
+
+}
+
+.selected.title {
+
+    color: #D9DAFF;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 15px;
+     letter-spacing: 5px;
+
+     margin-bottom: 30px;
+}
+
+.selected-work h1{
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    font-size: clamp( 60px , 8vw , 110px);
+
+    line-height: 0.9;
+}
+
+
+.project-container{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+    
+}
+
+.project-box{
+    flex: 1;
+    min-height: 360px;
+   
+    background: #171761;
+    padding: 40px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-number {
+
+    color: #f6e553;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 38px;
+
+    margin: 20px 0;
+
+}
+
+.project-box p{
+    color: #D9DAFF;
+
+    font-family: Arial, sans-serif ;
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    max-width: 450px;
+}
+
+.project-button{
+     display: inline-block;
+
+    background: #f6e553;
+    color: #171761;
+
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    padding: 14px 20px;
+
+    margin-top: auto;
+}
+
+
+.project-button:hover{
+    background: #D9DAFF;
+}
+
+.coming-soon {
+    border-color: #D9DAFF
+}
+
+.coming-text{
+    color: #f6e553;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 15px;
+
+    letter-spacing: 4px;
+
+    margin-top: auto;
+}
+
+.contact-title {
+    background-color: #484b8e;
+
+    
+
+    padding: 70px 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-label {
+    color: #D9DAFF;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 20px;
+    letter-spacing: 4px;
+
+    margin-bottom: 25px;
+}
+
+.contact-title h1 {
+    color: #D9DAFF;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: clamp(45px, 6vw, 80px);
+
+    line-height: 0.9;
+
+    margin-bottom: 25px;
+}
+
+.contact-text {
+    color: white;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    margin-bottom: 22px;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-button {
+    background: #f6e553;
+    color: #171761;
+
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    padding: 12px 16px;
+}
+
+footer {
+
+    background-color: #171761;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.footer-name {
+    color: #f6e553;
+    font-family: "Changa One", sans-serif;
+    font-size: larger;
+}
+
+
+.footer-middle {
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+.footer-copy {
+    color: #D9DAFF;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+@media (max-width: 900px){
+
+    .ugly{
+        display:none;
+    }
+
+    .navlinks{
+        gap:18px;
+
+    }
+
+    .service-section,
+    .selected-work,
+    section.contact-title{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+
+
+@media ( max-width: 600px){
+
+    .navbargroup{
+        height: 60px;
+        padding: 0 5%;
+    }
+
+    .title a{
+        font-size: 16px;
+    }
+
+    .navlinks{
+        gap:12px
+    }
+
+    .navlinks a{
+        font-size:12px;
+    }
+
+    .home {
+        min-height: calc(100vh-60px);
+        padding: 70px 7%;
+    }
+
+
+    .intro h1,
+    .into h1,
+    .visuals h1{
+        font-size: 22vw;
+    }
+
+    .disgn h2{
+        font-size: 28px;
+    }
+
+   .About {
+    padding: 80px 8%;
+   }
+
+   .About h1{
+    font-size: 10vw;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

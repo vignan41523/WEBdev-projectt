@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#484b8e ;
+    color: white;
+}
+
+.navbar {
+    height: 70px;
+    background:#171761;
+
+    padding: 0 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #f6e553;
+    text-decoration: none;
+
+    font-family: "Changa One", sans-serif;
+    font-size: 20px;
+}
+
+.back a{
+    color:#D9DAFF;
+    text-decoration:  none;
+
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.hero {
+    min-height: calc(100vh - 125px);
+
+    background:#4c54cf;
+
+    padding:90px 10%;
+}
+
+.small-title,
+.solves-title,
+.section-title {
+    color: #D9DAFF;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 13px;
+    letter-spacing: 4px;
+
+    margin-bottom: 25px;
+}
+
+.hero h1{
+    color: #D9DAFF;
+
+     font-family: "Bebas Neue", sans-serif;
+
+    font-size: clamp(70px, 10vw, 130px);
+
+    line-height: 0.8;
+
+    margin-bottom: 30px;
+}
+
+.hero-text,
+.description{
+    max-width: 650px;
+
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 60px;
+}
+
+.story {
+    padding: 70px 10%;
+}
+
+.story h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    line-height: .9;
+    color: #D9DAFF;
+    margin-bottom: 25px;
+}
+
+.description {
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+
+.solves{
+    background: #4c54cf;
+    display: grid;
+    padding: 0 10% 70px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 30px;
+}
+
+.solves > div {
+    border-top: 1px solid #D9DAFF;
+    padding-top: 18px;
+
+}
+
+
+.solves span{
+    color: #f6e553;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 25px;
+}
+
+.solves h2{
+    color: white;
+
+    font-family: "Archivo Black", sans-serif;
+
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.solves p {
+      color: #D9DAFF;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+    max-width: 280px;
+}
+
+
+.footer {
+    height: 55px;
+
+    background: #171761;
+
+    padding: 0 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #D9DAFF;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+.footer div:first-child {
+    color: #f6e553;
+
+    font-family: "Changa One", sans-serif;
+
+    font-size: 12px;
+
+    letter-spacing: 0;
+}
+
+.app-preview{
+    padding: 40px 10%;
+    background: #484b8e;
+}
+
+.app-preview img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .hero {
+        padding: 70px 8%;s
+    }
+
+    .solves {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer {
+        padding: 0 6%;
+        font-size: 7px;
+    }
+}
+
